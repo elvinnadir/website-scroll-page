@@ -1,6 +1,5 @@
 import React from "react";
 import { Button } from "../ButtonEl";
-
 import {
   InfoContainer,
   InfoWrapper,
@@ -50,9 +49,9 @@ const InfoSection = ({
                     spy={true}
                     exact="true"
                     offset={-80}
-                    primary={primary ? "true" : "false"}
-                    dark={dark ? "true" : "false"}
-                    dark2={dark2 ? "ture" : "false"}
+                    primary={primary ? 1 : 0}
+                    dark={dark ? 1 : 0}
+                    dark2={dark2 ? 1 : 0}
                   >
                     {buttonLabel}
                   </Button>
